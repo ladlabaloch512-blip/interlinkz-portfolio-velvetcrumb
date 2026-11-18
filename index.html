@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home - Velvet Crumb Bakery</title>
+<meta name="description" content="Velvet Crumb Bakery demo website. Fresh breads, cakes, pastries and coffee, baked in small batches every morning.">
+<link rel="icon" type="image/jpeg" href="images/favicon.jpg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-in">
+    <a class="logo" href="index.html">
+      <img src="images/logo-mark.jpg" alt="Velvet Crumb Bakery logo">
+      <span class="logo-text">Velvet Crumb<small>BAKERY</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false">Menu</button>
+    <nav class="main-nav" aria-label="Main navigation"><ul><li><a href="index.html" class="active">Home</a></li><li><a href="shop.html">Shop</a></li><li><a href="custom-cake.html">Custom Cakes</a></li><li><a href="cafe-menu.html">Cafe Menu</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+    <a class="cart-link" href="cart.html">Cart<span class="cart-count">0</span></a>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div><img src="images/hero.jpg" alt="Fresh sourdough loaf and pastries on a wooden bakery table"></div>
+      <div>
+        <h1>Fresh from the oven, straight to your table.</h1>
+        <p>Breads, cakes and pastries baked in small batches every morning. Order online for pickup or local delivery, and taste the difference fresh makes.</p>
+        <div class="hero-btns">
+          <a class="btn btn-primary" href="shop.html">Order Now</a>
+          <a class="btn btn-outline" href="custom-cake.html">See Custom Cakes</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Loved by our regulars</h2>
+        <p>These are the items our customers come back for, week after week. The sourdough sells out most mornings, and the chocolate fudge cake is our most ordered birthday cake. Order before 10 am for same day pickup on most items.</p>
+      </div>
+      <div class="grid" id="best-sellers"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>What are you craving today?</h2>
+        <p>Warm breads for the table, cakes for the big moments, pastries for slow mornings and cookies for the tea tray. Pick a category and start your order.</p>
+      </div>
+      <div class="tiles">
+        <a class="tile" href="shop.html?cat=Breads"><span class="tile-mark">B</span><strong>Breads</strong><span>Loaves and flatbreads, baked daily</span></a>
+        <a class="tile" href="shop.html?cat=Cakes"><span class="tile-mark">C</span><strong>Cakes</strong><span>For birthdays and big moments</span></a>
+        <a class="tile" href="shop.html?cat=Pastries"><span class="tile-mark">P</span><strong>Pastries</strong><span>Flaky, warm and fresh</span></a>
+        <a class="tile" href="shop.html?cat=Cookies"><span class="tile-mark">K</span><strong>Cookies</strong><span>Made for coffee dipping</span></a>
+        <a class="tile" href="shop.html?cat=Cafe%20Drinks"><span class="tile-mark">D</span><strong>Cafe Drinks</strong><span>Coffee, hot and cold</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="banner">
+        <div>
+          <h2>A cake made only for your day</h2>
+          <p>Tell us the size, flavour and the message on top, and our bakers will hand make your cake to order. Custom cakes need 48 hours notice so we can give your cake the time it deserves. Add a photo topper or a fondant finish to make it truly yours.</p>
+        </div>
+        <a class="btn btn-gold" href="custom-cake.html">Build Your Cake</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split">
+      <div>
+        <h2>Sit, sip and slow down</h2>
+        <p>Our little cafe corner serves fresh coffee, cold drinks and light bites all day. Come in for a quiet breakfast, a working lunch or a sweet break with friends.</p>
+        <a class="btn btn-primary" href="cafe-menu.html">See the Cafe Menu</a>
+      </div>
+      <div><img src="images/cafe-counter.jpg" alt="The Velvet Crumb bakery counter with fresh cakes and croissants"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Baked fresh, never stored</h2>
+        <p>We bake in small batches through the day, so nothing sits on a shelf for long. We use real butter, fresh eggs and seasonal fruit, and we never use frozen dough. If it is on our shelf, it was made with care, most likely this morning.</p>
+      </div>
+      <div class="values">
+        <div class="value"><h3>Small batches</h3><p>We bake little and often through the day, so what you buy was most likely made this morning.</p></div>
+        <div class="value"><h3>Honest ingredients</h3><p>Real butter, fresh eggs and seasonal fruit. No frozen dough, no shortcuts.</p></div>
+        <div class="value"><h3>Made to order</h3><p>Cakes and celebration bakes are hand made for your day, never pulled from a freezer.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Good to know</h2>
+        <p>A few answers before you order. The full list is on our FAQ page.</p>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false">How much notice do custom cakes need?<span class="sign">+</span></button>
+        <div class="faq-a"><p>Custom cakes need at least 48 hours notice. Simple cakes from the shop page can often be ready the same day if you order before 10 am.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false">Do you deliver?<span class="sign">+</span></button>
+        <div class="faq-a"><p>Yes, we deliver in our local area for a small fee of Rs 200, and delivery is free on orders above Rs 3,000. You can also choose free pickup from the bakery.</p></div>
+      </div>
+      <p style="margin-top:16px"><a class="btn btn-outline" href="faq.html" style="color:var(--raspberry-dark);border-color:var(--raspberry)">Read All FAQs</a></p>
+    </div>
+  </section>
+</main>
+<div class="lead-band">
+  <div class="wrap lead-in">
+    <p>Like the look of this website? It is a portfolio demo, built to show what we can make for a business like yours.</p>
+    <a class="btn btn-gold" href="https://interlinkz.com/contact">Want a website like this? Talk to Interlinkz</a>
+    <a class="contact-link" href="https://interlinkz.com/contact">Contact Interlinkz</a>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <img class="footer-logo" src="images/logo.jpg" alt="Velvet Crumb Bakery logo">
+      <p>Breads, cakes and pastries baked in small batches every morning. Order online for pickup or local delivery.</p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="custom-cake.html">Custom Cakes</a></li>
+        <li><a href="cafe-menu.html">Cafe Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Visit Us</h3>
+      <ul>
+        <li>Velvet Crumb Bakery</li>
+        <li>12 Demo Lane, Sample Town</li>
+        <li>0300 0000000</li>
+        <li>hello@velvetcrumb.example.com</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Opening Hours</h3>
+      <ul>
+        <li>Monday to Saturday: 8 am to 10 pm</li>
+        <li>Sunday: 9 am to 9 pm</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>Velvet Crumb Bakery. This is a demo portfolio website, so orders placed here are not real.</span>
+    <span>Built by <a href="https://interlinkz.com">Interlinkz</a></span>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
